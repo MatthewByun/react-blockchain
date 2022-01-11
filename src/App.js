@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Web3 from 'web3';
 
 function App() {
+
+  var web3 = new Web3(Web3.givenProvider)
+
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> Hello !!!
         </p>
         <a
           className="App-link"
